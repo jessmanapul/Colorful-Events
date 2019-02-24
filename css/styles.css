@@ -1,1 +1,31 @@
+body {
+    background-color: #eee;
+    text-align: center;
+    padding: 50px 0;
+}
 
+#title {
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 12px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    border: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.8s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+  }
